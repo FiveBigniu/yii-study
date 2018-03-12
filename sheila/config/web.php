@@ -14,6 +14,12 @@ $config = [
     ],
     'controllerNamespace' => 'sheila\controllers',
 //    'layout' => null
+    'components' => [
+        'assetManager' => [
+            'basePath' => '@webroot/web',
+            'baseUrl' => '@web/web'
+        ]
+    ],
     'params' => $params,
 ];
 

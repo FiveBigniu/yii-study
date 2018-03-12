@@ -5,5 +5,5 @@
  * Date: 2018/3/11
  * Time: 23:26
  */
-$this -> params['aa']='wyyy<br>';
-echo $name;
+//$this -> params['aa']='wyyy<br>';
+//echo $name;
