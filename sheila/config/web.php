@@ -9,8 +9,10 @@ $params = require (__DIR__.'/params.php');
 $config = [
     'id' => 'app-sheila',
     'basePath' => dirname(__DIR__),
+    'vendorPath' => dirname(dirname(__DIR__)).'/vendor',
     'aliases' => [
-        '@sheila' =>dirname( __DIR__),
+        '@sheila' => dirname( __DIR__),
+        '@assets' => dirname(dirname(__DIR__)).'/assets',
     ],
     'controllerNamespace' => 'sheila\controllers',
 //    'layout' => null

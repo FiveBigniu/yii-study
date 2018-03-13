@@ -6,10 +6,9 @@
  * Time: 23:30
  */
 use sheila\assets\AppAsset;
-
 AppAsset::register($this);
 $this->beginPage();
-//echo 'aaa';die;
+echo 'aaa';die;
 ?>
 <!doctype html>
 <html lang="en">
